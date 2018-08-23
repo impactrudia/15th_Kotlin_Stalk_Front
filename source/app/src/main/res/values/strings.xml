@@ -15,4 +15,13 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="main_another_friend">다른 친구보기 \u003E</string>
+    <string name="enter_message">저장할 메세지를 입력하세요.</string>
+    <string name="delete">삭제</string>
+    <string name="update">수정</string>
+    <string name="register">등록</string>
+    <string name="msg_delete">삭제되었습니다.</string>
+    <string name="msg_success_send_message">메세지가 전송되었습니다.</string>
+    <string name="friend_list">%s(%s)</string>
+
 </resources>

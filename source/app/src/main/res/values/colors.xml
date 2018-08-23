@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">@color/colorGreen600</color>
+    <color name="colorPrimaryDark">@color/colorGreen800</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--Meterial Design color-->
+    <!--CC: https://material.io/design/color/the-color-system.html#tools-for-picking-colors-->
+    <color name="colorGreen100">#C8E6C9</color>
+    <color name="colorGreen200">#A5D6A7</color>
+    <color name="colorGreen300">#81C784</color>
+    <color name="colorGreen400">#66BB6A</color>
+    <color name="colorGreen500">#4CAF50</color>
+    <color name="colorGreen600">#43A047</color>
+    <color name="colorGreen700">#388E3C</color>
+    <color name="colorGreen800">#2E7D32</color>
+    <color name="colorGreen900">#1B5E20</color>
+
+    <color name="colorGray50">#FAFAFA</color>
+    <color name="colorGray100">#F5F5F5</color>
+    <color name="colorGray200">#EEEEEE</color>
+    <color name="colorGray300">#E0E0E0</color>
+    <color name="colorGray400">#BDBDBD</color>
+    <color name="colorGray500">#9E9E9E</color>
+    <color name="colorGray600">#757575</color>
+    <color name="colorGray700">#616161</color>
+    <color name="colorGray800">#424242</color>
+    <color name="colorGray900">#212121</color>
+
+    <color name="colorWhite">#FFFFFF</color>
 </resources>

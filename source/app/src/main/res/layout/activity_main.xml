@@ -7,12 +7,129 @@
     android:layout_height="match_parent"
     tools:context=".activity.MainActivity">
 
+    <RelativeLayout
+        android:id="@+id/layoutMainCenter"
+        android:layout_width="@dimen/circle_main_center"
+        android:layout_height="@dimen/circle_main_center"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="@dimen/circle_main_center"
+            android:layout_height="@dimen/circle_main_center"
+            android:src="@drawable/xml_circle_main_center"/>
+
+        <TextView
+            android:id="@+id/tvMainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:text="남자친구"/>
+
+        <TextView
+            android:id="@+id/tvAnotherFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMainTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/main_another_friend"/>
+
+    </RelativeLayout>
+
     <TextView
-        android:text="@string/hello_world"
-        android:layout_centerVertical="true"
+        android:id="@+id/tvCircleMainSide1"
+        android:layout_width="@dimen/circle_main_side"
+        android:layout_height="@dimen/circle_main_side"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_marginTop="93dp"
+        android:text="+"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/xml_circle_main_side"/>
+
+    <TextView
+        android:id="@+id/tvCircleMainSide2"
+        android:layout_width="@dimen/circle_main_side"
+        android:layout_height="@dimen/circle_main_side"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvCircleMainSide4"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/xml_circle_main_side"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/tvCircleMainSide3"
+        android:layout_width="@dimen/circle_main_side"
+        android:layout_height="@dimen/circle_main_side"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/xml_circle_main_side"/>
+
+    <TextView
+        android:id="@+id/tvCircleMainSide4"
+        android:layout_width="@dimen/circle_main_side"
+        android:layout_height="@dimen/circle_main_side"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="124dp"
+        android:layout_marginEnd="60dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/xml_circle_main_side"/>
+
+    <TextView
+        android:id="@+id/tvCircleMainSide5"
+        android:layout_width="@dimen/circle_main_side"
+        android:layout_height="@dimen/circle_main_side"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/xml_circle_main_side"/>
+
+    <TextView
+        android:id="@+id/tvCircleMainSide6"
+        android:layout_width="@dimen/circle_main_side"
+        android:layout_height="@dimen/circle_main_side"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tvCircleMainSide4"
+        android:layout_marginStart="62dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/xml_circle_main_side"/>
+
+    <TextView
+        android:id="@+id/tvCircleMainSide7"
+        android:layout_width="@dimen/circle_main_side"
+        android:layout_height="@dimen/circle_main_side"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="34dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/xml_circle_main_side"/>
+
+    <TextView
+        android:id="@+id/tvCircleMainSide8"
+        android:layout_width="@dimen/circle_main_side"
+        android:layout_height="@dimen/circle_main_side"
+        android:layout_alignStart="@+id/tvCircleMainSide6"
+        android:layout_alignTop="@+id/tvCircleMainSide2"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/xml_circle_main_side"/>
+
 
 </RelativeLayout>
